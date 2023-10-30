@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог образовательных материалов</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <h1>Каталог образовательных материалов для начальной школы</h1>
+        <nav>
+            <!-- Навигационное меню -->
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#materials">Каталог</a></li>
+                <li><a href="#about-section">О сайте</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+        <!-- Панель поиска -->
+        <!-- <div class="search-bar">
+            <input type="text" placeholder="Поиск...">
+            <button>Искать</button>
+        </div> -->
+    </header>
+
+<!-- Фильтры -->
+<section id="filters">
+    <label for="classFilter">Класс:</label>
+    <select id="classFilter">
+        <option value="all">Все классы</option>
+        <option value="1">1 класс</option>
+        <option value="2">2 класс</option>
+        <option value="3">3 класс</option>
+        <!-- и так далее... -->
+    </select>
+    
+    <label for="subjectFilter">Предмет:</label>
+    <select id="subjectFilter">
+        <option value="all">Все предметы</option>
+        <option value="math">Математика</option>
+        <option value="russian">Русский язык</option>
+        <!-- и так далее... -->
+    </select>
+    <label for="typeFilter">Тип:</label>
+    <select id="typeFilter">
+        <option value="all">Все</option>
+        <option value="trainer">Тренажер</option>
+        <option value="test">Тест</option>
+        <option value="presentation">Презентация</option>
+        presentation
+        <!-- и так далее... -->
+    </select>
+</section>
+
+<!-- Список материалов -->
+<section id="materials">
+    <div class="materials-wrapper">
+    <!-- <div class="material-item" data-class="2" data-subject="math" data-type="trainer" itemscope itemtype="http://schema.org/EducationalOccupationalProgram">
+        <article>
+            <h4 itemprop="name">Интерактивный тренажер по математике: "Табличное умножение"</h4>
+            <img src="./data_files/LesnajashkolaTablichnoeumnozhenie.png" alt="Изображение интерактивного тренажера по табличному умножению" itemprop="image">
+            <p itemprop="description">Погрузитесь в мир математики с нашим интерактивным тренажером! Прокачайте свои навыки табличного умножения с помощью захватывающих заданий и визуализаций.</p>
+            <a href="./data_files/тренажеры математика 2 класс/Лесная школа.Табличное умножение.ppt" class="download-btn" itemprop="url">Скачать</a>
+        </article>
+    </div>
+     -->
+    
+    <div class="material-item" data-class="2" data-subject="math" data-type="test">
+        <article>
+            <h4>Тест по названиям чисел в записях действий</h4>
+            <img src="./data_files/nazvanijachiselvzapisjahdejstvij.png" alt="Обложка теста по названиям чисел">
+            <p>Проверьте свои знания в именовании чисел при записи различных математических операций.</p>
+            <a href="./data_files/2 класс тесты математика/названия чисел в записях действий.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    <div class="material-item" data-class="2" data-subject="math" data-type="test">
+        <article>
+            <h4>Тест по умножению и делению на 2</h4>
+            <img src="./data_files/umnozhenieideleniena2.png" alt="Обложка теста по умножению и делению на 2">
+            <p>Укрепите свои навыки умножения и деления на 2 с нашим интерактивным тестом.</p>
+            <a href="./data_files/2 класс тесты математика/умножение и деление на 2.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    <div class="material-item" data-class="2" data-subject="math" data-type="test">
+        <article>
+            <h4>Тест по умножению и делению на 3</h4>
+            <img src="./data_files/umnozhenieideleniena3.png" alt="Обложка теста по умножению и делению на 3">
+            <p>Проверьте и отточите свои навыки умножения и деления на 3.</p>
+            <a href="./data_files/2 класс тесты математика/умножение и деление на 3.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    <div class="material-item" data-class="2" data-subject="math" data-type="test">
+        <article>
+            <h4>Тест по умножению и делению на 4</h4>
+            <img src="./data_files/umnozhenieideleniena4.png" alt="Обложка теста по умножению и делению на 4">
+            <p>Освежите свои знания и практику умножения и деления на 4 с этим тестом.</p>
+            <a href="./data_files/2 класс тесты математика/умножение и деление на 4.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    
+    <div class="material-item" data-class="2" data-subject="math" data-type="test">
+        <article>
+            <h4>Тест по умножению и делению на 5</h4>
+            <img src="./data_files/umnozhenieideleniena5.png" alt="Обложка теста по умножению и делению на 5">
+            <p>Испытайте свои навыки умножения и деления на 5 с этим качественным тестом.</p>
+            <a href="./data_files/2 класс тесты математика/умножение и деление на 5.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    <div class="material-item" data-class="2" data-subject="math" data-type="test">
+        <article>
+            <h4>Тест по умножению и делению на 6</h4>
+            <img src="./data_files/umnozhenieideleniena6.png" alt="Обложка теста по умножению и делению на 6">
+            <p>Углубите свое понимание и мастерство умножения и деления на 6.</p>
+            <a href="./data_files/2 класс тесты математика/умножение и деление на 6.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    <div class="material-item" data-class="2" data-subject="math" data-type="test">
+        <article>
+            <h4>Тест по умножению и делению на 8</h4>
+            <img src="./data_files/umnozhenieideleniena8test.png" alt="Обложка теста по умножению и делению на 8">
+            <p>Оттестируйте свои способности умножать и делить на 8 с нашим интерактивным тестом.</p>
+            <a href="./data_files/2 класс тесты математика/умножение и деление на 8 тест.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    <!-- И так для каждого материала... -->
+
+    <div class="material-item" data-class="2" data-subject="math" data-type="test">
+        <article>
+            <h4>Тест по умножению и делению на 9</h4>
+            <img src="./data_files/umnozhenieideleniena9.png" alt="Обложка теста по умножению и делению на 9">
+            <p>Освойте умножение и деление на число 9 с нашим интерактивным тестом. Подтвердите свои знания и умения!</p>
+            <a href="./data_files/2 класс тесты математика/умножение и деление на 9.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    
+    <div class="material-item" data-class="2" data-subject="math" data-type="test">
+        <article>
+            <h4>Тест по табличному умножению и делению</h4>
+            <img src="./data_files/testtablichnoeumnozhenieidelenie.png" alt="Обложка теста по табличному умножению и делению">
+            <p>Проверьте свои навыки в табличном умножении и делении с нашим комплексным тестом.</p>
+            <a href="./data_files/2 класс тесты математика/тест табличное умножение и деление.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    <div class="material-item" data-class="2" data-subject="math" data-type="test">
+        <article>
+            <h4>Тест по умножению и делению на 7</h4>
+            <img src="./data_files/testumnozhenieideleniena7.png" alt="Обложка теста по умножению и делению на 7">
+            <p>Усовершенствуйте свои навыки умножения и деления на 7 с этим интерактивным тестом.</p>
+            <a href="./data_files/2 класс тесты математика/тест умножение и деление на 7.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    <!-- И так далее... -->
+
+    <div class="material-item" data-class="2" data-subject="math" data-type="test">
+        <article>
+            <h4>Тест по умножению и делению на 8</h4>
+            <img src="./data_files/umnozhenieideleniena8test.png" alt="Обложка теста по умножению и делению на 8">
+            <p>Овладейте умножением и делением на 8 с помощью нашего интерактивного теста.</p>
+            <a href="./data_files/2 класс тесты математика/умножение и деление на 8 тест.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    <!-- и так далее... -->
+
+    
+    <div class="material-item" data-class="2" data-subject="math" data-type="test">
+        <article>
+            <h4>Тест по умножению и делению на 9</h4>
+            <img src="./data_files/umnozhenieideleniena9.png" alt="Обложка теста по умножению и делению на 9">
+            <p>Пройдите наш тест и проверьте свои навыки умножения и деления на 9.</p>
+            <a href="./data_files/2 класс тесты математика/умножение и деление на 9.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    
+    <div class="material-item" data-class="3" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Буквы о, ё после шипящих</h4>
+            <img src="./data_files/bukvyoeposleshipjaschih.png" alt="Обложка презентации про буквы о, ё после шипящих">
+            <p>Подробный разбор правил написания букв о, ё после шипящих.</p>
+            <a href="./data_files/3 класс русский/буквы о, ё после шипящих.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    <div class="material-item" data-class="3" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Падежи</h4>
+            <img src="./data_files/padezhi.png" alt="Обложка презентации про падежи">
+            <p>Основы учения о падежах в русском языке.</p>
+            <a href="./data_files/3 класс русский/падежи.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    <div class="material-item" data-class="3" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Склонение имен существительных</h4>
+            <img src="./data_files/sklonenieimensuschestvitelnyh.png" alt="Обложка презентации про склонение имен существительных">
+            <p>Обучающая презентация по склонению имен существительных в русском языке.</p>
+            <a href="./data_files/3 класс русский/склонение имен существительных.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="1" data-subject="math" data-type="presentation">
+        <article>
+            <h4>Тестовый материал с Винни Пухом</h4>
+            <img src="./data_files/VinniPuh_pp_shablon.png" alt="Обложка презентации с Винни Пухом">
+            <p>Игровая презентация по математике с использованием изображений Винни Пуха.</p>
+            <a href="./data_files/тесты 1 класс математика/Винни Пух_pp_shablon.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    <div class="material-item" data-class="1" data-subject="math" data-type="presentation">
+        <article>
+            <h4>Годовой тест по математике</h4>
+            <img src="./data_files/godovoj_pp_shablon.png" alt="Годовая обложка презентации по математике">
+            <p>Обобщающая презентация с заданиями на знание материала за год.</p>
+            <a href="./data_files/тесты 1 класс математика/годовой_pp_shablon.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+    <div class="material-item" data-class="1" data-subject="math" data-type="presentation">
+        <article>
+            <h4>Тест на знание состава числа с переходом</h4>
+            <img src="./data_files/sostavchislasperehodom.png" alt="Обложка теста на состав числа с переходом">
+            <p>Материал для проверки понимания сложения чисел с переходом через десяток.</p>
+            <a href="./data_files/тесты 1 класс математика/состав числа с переходом.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="1" data-subject="math" data-type="presentation">
+        <article>
+            <h4>Тест на определение состава числа</h4>
+            <img src="./data_files/testsostavchisla.png" alt="Обложка теста на состав числа">
+            <p>Интерактивный тест для учащихся, направленный на определение состава чисел.</p>
+            <a href="./data_files/тесты 1 класс математика/тест состав числа.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="1" data-subject="math" data-type="presentation">
+        <article>
+            <h4>Знакомство с числами от 11 до 20</h4>
+            <img src="./data_files/chislaot11do20.png" alt="Обложка материала по числам от 11 до 20">
+            <p>Обучающий материал для первоклассников по теме "Числа от 11 до 20".</p>
+            <a href="./data_files/тесты 1 класс математика/числа от 11 до 20.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="2" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Безударные гласные в словах</h4>
+            <img src="./data_files/bezudarnyeglasnye.png" alt="Обложка учебного материала по безударным гласным">
+            <p>Материал для изучения правил написания безударных гласных в словах.</p>
+            <a href="./data_files/тесты русский язык 2 класс/безударные гласные.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    <div class="material-item" data-class="3" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Правило написания "о, ё" после шипящих</h4>
+            <img src="./data_files/bukvyoeposleshipjaschih.png" alt="Обложка материала о написании 'о, ё' после шипящих">
+            <p>Учебный материал по правилам написания букв "о, ё" после шипящих.</p>
+            <a href="./data_files/3 класс русский/буквы о, ё после шипящих.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="3" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Понимание падежей в русском языке</h4>
+            <img src="./data_files/padezhi.png" alt="Обложка материала о падежах">
+            <p>Вводный материал в систему падежей русского языка для третьеклассников.</p>
+            <a href="./data_files/3 класс русский/падежи.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="3" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Склонение имен существительных</h4>
+            <img src="./data_files/sklonenieimensuschestvitelnyh.png" alt="Обложка учебного материала по склонению имен существительных">
+            <p>Детальное руководство по склонению имен существительных в русском языке.</p>
+            <a href="./data_files/3 класс русский/склонение имен существительных.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="3" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Основы склонения существительных</h4>
+            <img src="./data_files/skloneniesuschestvitelnyh.png" alt="Обложка материала по склонению существительных">
+            <p>Материал для изучения основ склонения существительных в русском языке.</p>
+            <a href="./data_files/3 класс русский/склонение существительных.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="1" data-subject="math" data-type="presentation">
+        <article>
+            <h4>Тест "Винни-Пух"</h4>
+            <img src="./data_files/VinniPuh_pp_shablon.png" alt="Обложка теста 'Винни-Пух'">
+            <p>Интерактивный тест для первоклассников с элементами графики Винни-Пуха.</p>
+            <a href="./data_files/тесты 1 класс математика/Винни Пух_pp_shablon.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="1" data-subject="math" data-type="presentation">
+        <article>
+            <h4>Годовой обзор материала по математике</h4>
+            <img src="./data_files/godovoj_pp_shablon.png" alt="Обложка годового обзора по математике">
+            <p>Презентация для обобщения знаний по математике за год обучения в первом классе.</p>
+            <a href="./data_files/тесты 1 класс математика/годовой_pp_shablon.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    <div class="material-item" data-class="1" data-subject="math" data-type="presentation">
+        <article>
+            <h4>Тест на знание состава числа с переходом</h4>
+            <img src="./data_files/sostavchislasperehodom.png" alt="Обложка теста на состав числа с переходом">
+            <p>Материал для проверки понимания сложения чисел с переходом через десяток.</p>
+            <a href="./data_files/тесты 1 класс математика/состав числа с переходом.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="1" data-subject="math" data-type="presentation">
+        <article>
+            <h4>Тест на определение состава числа</h4>
+            <img src="./data_files/testsostavchisla.png" alt="Обложка теста на состав числа">
+            <p>Интерактивный тест для учащихся, направленный на определение состава чисел.</p>
+            <a href="./data_files/тесты 1 класс математика/тест состав числа.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="2" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Безударные гласные в словах</h4>
+            <img src="./data_files/bezudarnyeglasnye.png" alt="Обложка учебного материала по безударным гласным">
+            <p>Материал для изучения правил написания безударных гласных в словах.</p>
+            <a href="./data_files/тесты русский язык 2 класс/безударные гласные.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    <div class="material-item" data-class="2" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Шаблон презентации "Буратино"</h4>
+            <img src="./data_files/Buratino_pp_shablon.png" alt="Обложка шаблона презентации 'Буратино'">
+            <p>Презентация на основе сказки "Буратино".</p>
+            <a href="./data_files/тесты русский язык 2 класс/Буратино_pp_shablon.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="2" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Правописание суффиксов</h4>
+            <img src="./data_files/pravopisanesuffiksov.png" alt="Обложка материала по правописанию суффиксов">
+            <p>Обучающий материал по правописанию суффиксов в словах.</p>
+            <a href="./data_files/тесты русский язык 2 класс/правописане суффиксов.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="2" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Тест на определение непроизносимой согласной</h4>
+            <img src="./data_files/testneproiznosimajasoglasnaja.png" alt="Обложка теста на определение непроизносимой согласной">
+            <p>Тест для проверки умения определения непроизносимой согласной в словах.</p>
+            <a href="./data_files/тесты русский язык 2 класс/тест непроизносимая согласная.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="2" data-subject="russian" data-type="presentation">
+        <article>
+            <h4>Тест на знание словарных слов</h4>
+            <img src="./data_files/testslovarnyeslova.png" alt="Обложка теста на знание словарных слов">
+            <p>Тест для проверки знания и правильного написания словарных слов.</p>
+            <a href="./data_files/тесты русский язык 2 класс/тест словарные слова.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    <div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+        <article>
+            <h4>Тренажёр "Белочка"</h4>
+            <img src="./data_files/Belochka.png" alt="Обложка тренажёра 'Белочка'">
+            <p>Интерактивный тренажёр "Белочка" для закрепления математических навыков.</p>
+            <a href="./data_files/тренажеры 1 класс/Белочка.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+        <article>
+            <h4>Тренажёр "Вычитание 6"</h4>
+            <img src="./data_files/vychitanie6.png" alt="Обложка тренажёра 'Вычитание 6'">
+            <p>Тренажёр для практики вычитания числа 6.</p>
+            <a href="./data_files/тренажеры 1 класс/вычитание 6.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+        <article>
+            <h4>Тренажёр "Забей гол!"</h4>
+            <img src="./data_files/zabejgol.png" alt="Обложка тренажёра 'Забей гол!'">
+            <p>Игровой математический тренажёр "Забей гол!".</p>
+            <a href="./data_files/тренажеры 1 класс/забей гол.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+        <article>
+            <h4>Тренажёр "Новый год"</h4>
+            <img src="./data_files/Novyjgod.png" alt="Обложка тренажёра 'Новый год'">
+            <p>Математический тренажёр на новогоднюю тему.</p>
+            <a href="./data_files/тренажеры 1 класс/Новый год.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+    
+    <div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+        <article>
+            <h4>Тренажёр "Помоги Волку"</h4>
+            <img src="./data_files/PomogiVolku.png" alt="Обложка тренажёра 'Помоги Волку'">
+            <p>Игровой тренажёр для учащихся 1 класса.</p>
+            <a href="./data_files/тренажеры 1 класс/Помоги Волку.ppt" class="download-btn">Скачать</a>
+        </article>
+    </div>
+
+<div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Приключения пчелы Майи"</h4>
+        <img src="./data_files/PrikljuchenijapchelyMaji.png" alt="Обложка тренажёра 'Приключения пчелы Майи'">
+        <p>Интерактивный тренажёр на тему приключений пчелы Майи.</p>
+        <a href="./data_files/тренажеры 1 класс/Приключения пчелы Майи.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Сложение и вычитание 6"</h4>
+        <img src="./data_files/slozhenieivychitanie6.png" alt="Обложка тренажёра 'Сложение и вычитание 6'">
+        <p>Тренажёр для практики сложения и вычитания числа 6.</p>
+        <a href="./data_files/тренажеры 1 класс/сложение и вычитание 6.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Сложение и вычитание с числом 1"</h4>
+        <img src="./data_files/slozhenieivychitanieschislom1.png" alt="Обложка тренажёра 'Сложение и вычитание с числом 1'">
+        <p>Тренажёр для практики арифметических операций со числом 1.</p>
+        <a href="./data_files/тренажеры 1 класс/сложение и вычитание с числом 1.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+<div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Состав чисел в пределах 10"</h4>
+        <img src="./data_files/Sostavchiselvpredelah10.png" alt="Обложка тренажёра 'Состав чисел в пределах 10'">
+        <p>Помогает детям узнать состав чисел в пределах 10.</p>
+        <a href="./data_files/тренажеры 1 класс/Состав чисел в пределах 10.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Считаем до 10"</h4>
+        <img src="./data_files/schitaemdo10.png" alt="Обложка тренажёра 'считаем до 10'">
+        <p>Тренажёр для обучения счету до 10.</p>
+        <a href="./data_files/тренажеры 1 класс/считаем до 10.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Прибавление 6"</h4>
+        <img src="./data_files/trenazherpribavlenie6.png" alt="Тренажёр 'Прибавление 6'">
+        <p>Тренажёр для развития навыков прибавления числа 6.</p>
+        <a href="./data_files/тренажеры 1 класс/тренажер прибавление 6.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Рыболов"</h4>
+        <img src="./data_files/Trenazherrybolov.png" alt="Тренажёр 'Рыболов'">
+        <p>Интересный тренажёр, посвящённый рыболовству.</p>
+        <a href="./data_files/тренажеры 1 класс/Тренажёр рыболов.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Считаем до 10 с лягушкой"</h4>
+        <img src="./data_files/Schitaemdo10ljagushka.png" alt="Тренажёр 'Считаем до 10 с лягушкой'">
+        <p>Тренажёр для счета до 10 с милой лягушкой.</p>
+        <a href="./data_files/тренажеры 1 класс/Считаем до 10лягушка.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Колобок"</h4>
+        <img src="./data_files/trenazherkolobok.png" alt="Тренажёр 'Колобок'">
+        <p>Математический тренажёр на основе сказки "Колобок".</p>
+        <a href="./data_files/тренажеры 1 класс/тренажёр колобок.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="1" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Куколки"</h4>
+        <img src="./data_files/trenazherkukolki.png" alt="Тренажёр 'Куколки'">
+        <p>Тренажёр для девочек, основанный на игре с куклами.</p>
+        <a href="./data_files/тренажеры 1 класс/тренажёр куколки.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Солнышко"</h4>
+        <img src="./data_files/Solnyshko.png" alt="Обложка тренажёра 'Солнышко'">
+        <p>Интересный и яркий тренажёр по математике для второго класса.</p>
+        <a href="./data_files/тренажеры математика 2 класс/Солнышко.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Буряк М.В. В сказочном лесу"</h4>
+        <img src="./data_files/BurjakMVVskazochnomlesu.png" alt="Обложка тренажёра 'Буряк М.В. В сказочном лесу'">
+        <p>Увлекательное математическое приключение в сказочном лесу.</p>
+        <a href="./data_files/тренажеры математика 2 класс/Буряк М.В. В сказочном лесу.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Лесная школа.Табличное умножение"</h4>
+        <img src="./data_files/LesnajashkolaTablichnoeumnozhenie.png" alt="Обложка тренажёра 'Лесная школа.Табличное умножение'">
+        <p>Обучение табличному умножению в игровой форме.</p>
+        <a href="./data_files/тренажеры математика 2 класс/Лесная школа.Табличное умножение.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "С Барби за покупками 1"</h4>
+        <img src="./data_files/SBarbizapokupkami1.png" alt="Обложка тренажёра 'С Барби за покупками 1'">
+        <p>Математические задачи на тему покупок вместе с Барби.</p>
+        <a href="./data_files/тренажеры математика 2 класс/С Барби за покупками 1.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Умножение и деление"</h4>
+        <img src="./data_files/trenazherumnozhenieidelenie.png" alt="Обложка тренажёра 'Умножение и деление'">
+        <p>Тренажёр для обучения умножению и делению во втором классе.</p>
+        <a href="./data_files/тренажеры математика 2 класс/тренажер умножение и деление.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Умножение и деление на 2"</h4>
+        <img src="./data_files/umnozhenieideleniena2.png" alt="Обложка тренажёра 'Умножение и деление на 2'">
+        <p>Специализированный тренажёр для умножения и деления на число 2.</p>
+        <a href="./data_files/тренажеры математика 2 класс/умножение и деление на 2.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Умножение и деление на 3"</h4>
+        <img src="./data_files/umnozhenieideleniena3.png" alt="Обложка тренажёра 'Умножение и деление на 3'">
+        <p>Специализированный тренажёр для умножения и деления на число 3.</p>
+        <a href="./data_files/тренажеры математика 2 класс/умножение и деление на 3.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Умножение и деление на 4"</h4>
+        <img src="./data_files/umnozhenieideleniena4.png" alt="Обложка тренажёра 'Умножение и деление на 4'">
+        <p>Тренажёр для отработки навыков умножения и деления на 4.</p>
+        <a href="./data_files/тренажеры математика 2 класс/умножение и деление на 4.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Умножение и деление на 5"</h4>
+        <img src="./data_files/umnozhenieideleniena5.png" alt="Обложка тренажёра 'Умножение и деление на 5'">
+        <p>Тренажёр для отработки навыков умножения и деления на 5.</p>
+        <a href="./data_files/тренажеры математика 2 класс/умножение и деление на 5.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Умножение и деление на 6"</h4>
+        <img src="./data_files/umnozhenieideleniena6.png" alt="Обложка тренажёра 'Умножение и деление на 6'">
+        <p>Тренажёр для отработки навыков умножения и деления на 6.</p>
+        <a href="./data_files/тренажеры математика 2 класс/умножение и деление на 6.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Умножение и деление на 7"</h4>
+        <img src="./data_files/umnozhenieideleniena7.png" alt="Обложка тренажёра 'Умножение и деление на 7'">
+        <p>Тренажёр для обучения умножению и делению на 7.</p>
+        <a href="./data_files/тренажеры математика 2 класс/умножение и деление на 7.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Умножение и деление на 8"</h4>
+        <img src="./data_files/umnozhenieideleniena8.png" alt="Обложка тренажёра 'Умножение и деление на 8'">
+        <p>Тренажёр для обучения умножению и делению на 8.</p>
+        <a href="./data_files/тренажеры математика 2 класс/умножение и деление на 8.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="math" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Юные водители"</h4>
+        <img src="./data_files/Junyevoditeli.png" alt="Обложка тренажёра 'Юные водители'">
+        <p>Игровой тренажёр для усвоения математических навыков с мотивом вождения.</p>
+        <a href="./data_files/тренажеры математика 2 класс/Юные водители.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="russian" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Непроизносимая согласная"</h4>
+        <img src="./data_files/neproiznosimajasoglasnaja.png" alt="Обложка тренажёра 'Непроизносимая согласная'">
+        <p>Помогает детям понять и запомнить правила написания непроизносимых согласных.</p>
+        <a href="./data_files/тренажеры русский 2 класс/непроизносимая согласная.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="russian" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Правописание суффиксов -ик-, -ек-"</h4>
+        <img src="./data_files/pravopisaniesuffiksovikek.png" alt="Обложка тренажёра 'Правописание суффиксов -ик-, -ек-'">
+        <p>Тренировка правописания суффиксов для учащихся второго класса.</p>
+        <a href="./data_files/тренажеры русский 2 класс/правописание суффиксов -ик-, -ек-.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="russian" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Безударные гласные"</h4>
+        <img src="./data_files/trenazherbezudarnyeglasnye.png" alt="Обложка тренажёра 'Безударные гласные'">
+        <p>Интерактивный тренажёр для работы над правописанием безударных гласных в словах.</p>
+        <a href="./data_files/тренажеры русский 2 класс/тренажер безударные гласные.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+<div class="material-item" data-class="2" data-subject="russian" data-type="trainer">
+    <article>
+        <h4>Тренажёр "Словарные слова"</h4>
+        <img src="./data_files/trenazherslovarnyeslova.png" alt="Обложка тренажёра 'Словарные слова'">
+        <p>Тренажёр помогает освоить словарный запас второклассников.</p>
+        <a href="./data_files/тренажеры русский 2 класс/тренажер словарные слова.ppt" class="download-btn">Скачать</a>
+    </article>
+</div>
+
+</div>
+</section>
+
+
+    
+
+    <div class="about-section" id="about-section">
+        <h2>О сайте</h2>
+        <p>Данный образовательный портал создан для учеников начальных классов и их родителей, а также для всех, кто хочет укрепить свои знания в начальной школе. Здесь представлены различные тренажёры, презентации и методические материалы, которые помогут сделать процесс обучения интересным, познавательным и продуктивным.</p>
+        <div class="author-info">
+            <p>Весь контент сайта создан учителем начальных классов — Князевой Татьяной Юрьевной. Татьяна Юрьевна имеет богатый опыт преподавания: она многие годы проработала в МОУ СОШ № 144 города Нижнего Новгорода. Её методы обучения были признаны эффективными и популярными среди учеников и их родителей.</p>
+            <p>Теперь, выйдя на пенсию, Татьяна Юрьевна решила поделиться своим опытом и знаниями с максимально широкой аудиторией, чтобы помочь как можно большему числу детей получить качественное начальное образование.</p>
+        </div>
+        <p>Мы искренне надеемся, что материалы сайта будут полезны и интересны как учащимся, так и их родителям. Здесь каждый найдёт что-то новое и узнает много интересного!</p>
+    </div>
+
+    
+    <section id="reviews">
+        <h2>Отзывы</h2>
+        <div class="review">
+            <p>"Очень полезные материалы, мой ребенок с удовольствием работает с ними!" - Ольга П.</p>
+        </div>
+        <div class="review">
+            <p>"Замечательные тесты, хорошо структурированные и интересные!" - Михаил С.</p>
+        </div>
+        <!-- Другие отзывы -->
+        <!-- <a href="#">Посмотреть все отзывы</a> -->
+    </section>
+
+    <section id="contact">
+        <h2>Связаться с нами</h2>
+        <address>
+            <p>Email: KnyazevaTU@gmail.com</p>
+            <!-- <p>Телефон: +7 123 456 7890</p> -->
+        </address>
+        <form action="/submit_form" method="POST">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="user_name">
+            
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="user_email">
+            
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="user_message"></textarea>
+            
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+    
+
+    <!-- Подвал сайта -->
+    <footer>
+        <p>&copy; 2023, Каталог образовательных материалов</p>
+    </footer>
+
+</body>
+
+</html>
